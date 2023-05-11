@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.back-frem{
+    width: 30rem;
+    height: 6rem;
+    background: #E1BEE7;
+    border-radius: 23px;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.back-frem .back-chang{
+    width: 91px;
+    height: 91px;
+    background: wheat;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 23px;
+}
+.back-frem .back-chang img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
